@@ -25,7 +25,7 @@ def read(*names, **kwargs):
 
 setup(
     name='ptvsd-ez',
-    version='0.1.0',
+    version='0.0.0',
     license='MIT license',
     description="A library for making simple-case usage of the Python Tools Visual Studio Debug server even easier, when you don't need fine control over all the fiddly options.",
     long_description='%s\n%s' % (
@@ -33,8 +33,8 @@ setup(
         re.sub(':[a-z]+:`~?(.*?)`', r'``\1``', read('CHANGELOG.rst'))
     ),
     author='Nicolas Winocur',
-    author_email='ptvsd-EZ@nicolaswinocur.com',
-    url='https://github.com/nwinocur/python-ptvsd-ez',
+    author_email='NWinocur@users.noreply.github.com',
+    url='https://github.com/NWinocur/python-ptvsd-ez',
     packages=find_packages('src'),
     package_dir={'': 'src'},
     py_modules=[splitext(basename(path))[0] for path in glob('src/*.py')],
@@ -63,9 +63,15 @@ setup(
         # 'Programming Language :: Python :: Implementation :: Stackless',
         'Topic :: Utilities',
     ],
+    project_urls={
+        'Documentation': 'https://python-ptvsd-ez.readthedocs.io/',
+        'Changelog': 'https://python-ptvsd-ez.readthedocs.io/en/latest/changelog.html',
+        'Issue Tracker': 'https://github.com/NWinocur/python-ptvsd-ez/issues',
+    },
     keywords=[
         # eg: 'keyword1', 'keyword2', 'keyword3',
     ],
+    python_requires='>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*',
     install_requires=[
         # eg: 'aspectlib==1.1.1', 'six>=1.7',
     ],

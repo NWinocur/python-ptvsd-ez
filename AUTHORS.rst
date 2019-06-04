@@ -2,4 +2,4 @@
 Authors
 =======
 
-* Nicolas Winocur - https://nicolaswinocur.com
+* Nicolas Winocur - https://github.com/NWinocur/python-ptvsd-ez

@@ -2,6 +2,6 @@
 Usage
 =====
 
-To use ptvsd-EZ in a project::
+To use ptvsd-ez in a project::
 
 	import ptvsd_ez

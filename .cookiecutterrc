@@ -8,7 +8,7 @@
 #    cookiepatcher gh:ionelmc/cookiecutter-pylibrary project-path
 #
 # See:
-#    https://pypi.python.org/pypi/cookiepatcher
+#    https://pypi.org/project/cookiepatcher
 #
 # Alternatively, you can run:
 #
@@ -16,39 +16,43 @@
 
 default_context:
 
+    _extensions:               ['jinja2_time.TimeExtension']
     _template:                 'gh:ionelmc/cookiecutter-pylibrary'
     appveyor:                  'no'
     c_extension_function:      'longest'
     c_extension_module:        '_ptvsd_ez'
-    c_extension_optional:      'yes'
+    c_extension_optional:      'no'
     c_extension_support:       'no'
     codacy:                    'no'
+    codacy_projectid:          'Get ID from https://app.codacy.com/app/NWinocur/python-ptvsd-ez/settings'
     codeclimate:               'no'
     codecov:                   'no'
     command_line_interface:    'no'
     command_line_interface_bin_name: 'ptvsd-ez'
     coveralls:                 'no'
+    coveralls_token:           'Required for Appveyor, take it from https://coveralls.io/github/NWinocur/python-ptvsd-ez'
     distribution_name:         'ptvsd-ez'
-    email:                     'ptvsd-EZ@nicolaswinocur.com'
+    email:                     'NWinocur@users.noreply.github.com'
     full_name:                 'Nicolas Winocur'
-    github_username:           'nwinocur'
+    github_username:           'NWinocur'
     landscape:                 'no'
     license:                   'MIT license'
     linter:                    'flake8'
     package_name:              'ptvsd_ez'
-    project_name:              'ptvsd-EZ'
+    project_name:              'ptvsd-ez'
     project_short_description: "A library for making simple-case usage of the Python Tools Visual Studio Debug server even easier, when you don't need fine control over all the fiddly options."
     release_date:              'today'
     repo_name:                 'python-ptvsd-ez'
     requiresio:                'no'
     scrutinizer:               'no'
     sphinx_docs:               'yes'
-    sphinx_doctest:            'yes'
+    sphinx_doctest:            'no'
     sphinx_theme:              'sphinx-rtd-theme'
     test_matrix_configurator:  'no'
     test_matrix_separate_coverage: 'no'
     test_runner:               'pytest'
     travis:                    'no'
-    version:                   '0.1.0'
-    website:                   'https://nicolaswinocur.com'
-    year:                      'now'
+    version:                   '0.0.0'
+    website:                   'https://github.com/NWinocur/python-ptvsd-ez'
+    year_from:                 '2019'
+    year_to:                   '2019'
