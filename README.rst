@@ -1,3 +1,9 @@
+====================
+DEPRECATION NOTICE:
+====================
+This repo is of a no-longer-necessary project, from back when Visual Studio Code's remote debugging features were still in early development.
+I would not recommend relying on the code from this repo anymore; features built into VSCode or Microsoft-supported extensions now officially support these capabilities.
+
 ========
 Overview
 ========
